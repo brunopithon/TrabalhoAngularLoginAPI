@@ -1,26 +1,29 @@
 <mat-card>
-    <mat-card-header>
-        <h1>Login de Usuário</h1>
-    </mat-card-header>
-    <mat-card-content>
-        <form class="example-form" [formGroup]="loginform" (ngSubmit)="prossigalogin()">
-            <mat-form-field class="example-full-width">
-              <mat-label>Nome de Usuário</mat-label>
-              <input matInput formControlName="id">
-            </mat-form-field>
-            <br>
-            <mat-form-field class="example-full-width">
-                <mat-label>Senha</mat-label>
-                <input type="password" matInput formControlName="senha">
-            </mat-form-field>
-            <br>
-            <div>
-                <button mat-raised-button color="primary">Enviar</button>
-                <a routerLink="/registro" mat-raised-button color="accent">Novo usuário?</a>
-            </div>
-          </form>
-    </mat-card-content>
+  <mat-card-header>
+    <h1>Login de Usuário</h1>
+  </mat-card-header>
+  <mat-card-content>
+    <form
+      class="example-form"
+      [formGroup]="loginform"
+      (ngSubmit)="prossigalogin()"
+    >
+      <mat-form-field class="example-full-width">
+        <mat-label>Nome de Usuário</mat-label>
+        <input matInput formControlName="id" />
+      </mat-form-field>
+      <br />
+      <mat-form-field class="example-full-width">
+        <mat-label>Senha</mat-label>
+        <input type="password" matInput formControlName="senha" />
+      </mat-form-field>
+      <br />
+      <div>
+        <button mat-raised-button color="primary">Login</button>
+        <a routerLink="/registro" mat-raised-button color="accent"
+          >Novo usuário</a
+        >
+      </div>
+    </form>
+  </mat-card-content>
 </mat-card>
-
-
-

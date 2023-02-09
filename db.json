@@ -10,48 +10,52 @@
       "statusAtivo": true
     },
     {
-      "id": "test1",
-      "nome": "admin user",
+      "id": "brunopithon",
+      "nome": "Bruno Pithon",
       "senha": "Admin123!",
-      "email": "admin@dominio.com",
+      "email": "brunopithondev@gmail.com",
       "genero": "masculino",
-      "funcao": "Usuario padrão",
+      "funcao": "admin",
       "statusAtivo": true
     },
     {
-      "id": "test2",
-      "nome": "admin user",
+      "id": "renanturibio",
+      "nome": "Jose Renan Turibio",
       "senha": "Admin123!",
-      "email": "admin@dominio.com",
+      "email": "turibio.dev@gmail.com",
       "genero": "masculino",
-      "funcao": "",
+      "funcao": "admin",
+      
       "statusAtivo": true
     },
     {
-      "id": "renanF",
-      "nome": "renan",
-      "senha": "Minhacasa174!",
-      "email": "renan@test.com",
-      "genero": "masculino",
-      "funcao": "Usuario padrão",
-      "statusAtivo": false
-    },
-    {
-      "id": "brunoP",
-      "nome": "bruno",
-      "senha": "Minhacasa174!",
-      "email": "bruno@test.com",
+      "id": "andrieriaazevedo",
+      "nome": "Andrieria Azevedo",
+      "senha": "Admin123!",
+      "email": "andrierinha22@gmail.com",
       "genero": "feminino",
-      "funcao": "",
+       "funcao": "Usuario padrão",
+      
       "statusAtivo": false
     },
     {
-      "id": "test3",
-      "nome": "admin user",
+      "id": "sarahleticia",
+      "nome": "Sarah Leticia",
       "senha": "Admin123!",
-      "email": "admin@dominio.com",
-      "genero": "masculino",
-      "funcao": "",
+      "email": "sarahleticia@gmail.com",
+      "genero": "feminino",
+       "funcao": "Usuario padrão",
+      
+      "statusAtivo": false
+    },
+    {
+      "id": "rianebrito",
+      "nome": "Riane Brito",
+      "senha": "Admin123!",
+      "email": "rianebrito@gmail.com",
+      "genero": "feminino",
+      "funcao": "admin",
+      
       "statusAtivo": true
     }
   ],

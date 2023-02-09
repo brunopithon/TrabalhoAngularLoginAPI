@@ -1,29 +1,32 @@
 <mat-card>
-    <mat-card-header>
-        <h1>Registro de Usuário</h1>
-    </mat-card-header>
-    <mat-card-content>
-        <form class="example-form" [formGroup]="registroform" (ngSubmit)="atualizarRegistro()">
-            <mat-form-field class="example-full-width">
-                <mat-label>Função</mat-label>
-                <mat-select formControlName="funcao">
-                    <mat-option *ngFor="let item of listaFuncoes" [value]="item.code">
-                      {{item.nome}}
-                    </mat-option>
-                  </mat-select>
-
-            </mat-form-field>
-            <br>
-            <div>
-                <mat-checkbox formControlName="inativo" class="example-margin">Inativo</mat-checkbox>
-            </div>
-            <br>
-            <div>
-                <button mat-raised-button color="primary">Atualizar</button>
-                <a routerLink="/login" mat-raised-button color="accent">Fechar</a>
-            </div>
-          </form>
-    </mat-card-content>
+  <mat-card-header>
+    <h1>Registro de Usuário</h1>
+  </mat-card-header>
+  <mat-card-content>
+    <form
+      class="example-form"
+      [formGroup]="registroform"
+      (ngSubmit)="atualizarRegistro()"
+    >
+      <mat-form-field class="example-full-width">
+        <mat-label>Função</mat-label>
+        <mat-select formControlName="funcao">
+          <mat-option *ngFor="let item of listaFuncoes" [value]="item.code">
+            {{ item.nome }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <br />
+      <div>
+        <mat-checkbox formControlName="inativo" class="example-margin"
+          >Ativo</mat-checkbox
+        >
+      </div>
+      <br />
+      <div>
+        <button mat-raised-button color="primary">Atualizar</button>
+        <a routerLink="/login" mat-raised-button color="accent">Fechar</a>
+      </div>
+    </form>
+  </mat-card-content>
 </mat-card>
-
-
