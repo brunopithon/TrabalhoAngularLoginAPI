@@ -1,0 +1,68 @@
+{
+  "usuario": [
+    {
+      "id": "admin",
+      "nome": "admin user",
+      "senha": "Admin123!",
+      "email": "admin@dominio.com",
+      "genero": "masculino",
+      "funcao": "admin",
+      "statusAtivo": true
+    },
+    {
+      "id": "test1",
+      "nome": "admin user",
+      "senha": "Admin123!",
+      "email": "admin@dominio.com",
+      "genero": "masculino",
+      "funcao": "Usuario padrão",
+      "statusAtivo": true
+    },
+    {
+      "id": "test2",
+      "nome": "admin user",
+      "senha": "Admin123!",
+      "email": "admin@dominio.com",
+      "genero": "masculino",
+      "funcao": "",
+      "statusAtivo": true
+    },
+    {
+      "id": "renanF",
+      "nome": "renan",
+      "senha": "Minhacasa174!",
+      "email": "renan@test.com",
+      "genero": "masculino",
+      "funcao": "Usuario padrão",
+      "statusAtivo": false
+    },
+    {
+      "id": "brunoP",
+      "nome": "bruno",
+      "senha": "Minhacasa174!",
+      "email": "bruno@test.com",
+      "genero": "feminino",
+      "funcao": "",
+      "statusAtivo": false
+    },
+    {
+      "id": "test3",
+      "nome": "admin user",
+      "senha": "Admin123!",
+      "email": "admin@dominio.com",
+      "genero": "masculino",
+      "funcao": "",
+      "statusAtivo": true
+    }
+  ],
+  "funcao": [
+    {
+      "code": "Usuario padrão",
+      "nome": "Usuario padrão"
+    },
+    {
+      "code": "admin",
+      "nome": "admin"
+    }
+  ]
+}
